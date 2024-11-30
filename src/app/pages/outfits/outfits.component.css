@@ -1,0 +1,12 @@
+body{
+    background-image: url('/bg.jfif');
+    background-size: cover; /* Ensure background image covers the viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Keep the background fixed on scroll */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust this if you need to change the vertical alignment */
+    flex-direction: column;
+    min-height: 100vh; /* Ensure it covers the full height */
+}

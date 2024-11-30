@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: lightblue; 
+  }
+  
+
+nav {
+    background: rgb(33, 3, 230);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+
+nav ul li:not(.login-btn) {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #eb5b5b;
+    border-radius: 50px;
+}
+
+
+nav ul li.login-btn {
+    margin-left: auto; 
+}
+
+nav ul li.login-btn a {
+    padding: 0.5rem 1rem;
+}
+
+
+nav ul li.login-btn a:hover {
+    background-color: white; 
+    color: rgb(33, 3, 230);
+    border-color: white;
+    text-decoration: none;
+}

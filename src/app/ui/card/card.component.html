@@ -1,0 +1,22 @@
+
+    <div class="container">
+        <div class="row">
+            @for(item of outfits;track item.id){
+    
+                <div class="col py-3">
+                <figure class="image-block">
+                    <img src={{item.images}} alt="" />
+                    <figcaption>
+                        <h3>
+                            {{item.title.slice(0,50)}}
+                        </h3>
+                        <p>{{item.description.slice(0,270)}} </p>
+                        <button routerLink="/individual/{{item.id}}">
+                            More Info
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+            }
+        </div>
+    </div>
